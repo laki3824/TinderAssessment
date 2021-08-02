@@ -17,6 +17,14 @@ NOTE: This is a test repository for Tinder Online Assessment
 
 ## How to run the tests?
 --------------------------------
+```
+IMPORTANT: You should update the test snapshots first, whenever you make any changes to the .env file, before executing the tests.
+```
+* To update the snapshot:
+```
+jest -u
+```
+
 You can run the test using either npm or jest
 
 * Using NPM:
