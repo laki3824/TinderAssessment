@@ -8,4 +8,4 @@ exports[`General invalid/exception tests -  Send message to an invalid channel 1
 
 exports[`General invalid/exception tests -  Unauthorized access to chat history 1`] = `[Error: An API error occurred: not_in_channel]`;
 
-exports[`General invalid/exception tests -  Update message posted by another user 1`] = `[Error: An API error occurred: message_not_found]`;
+exports[`General invalid/exception tests -  Update message posted by another user 1`] = `[Error: An API error occurred: cant_update_message]`;
