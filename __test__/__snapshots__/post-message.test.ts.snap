@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slack Post Message Tests Post message with attachments 1`] = `
+Object {
+  "channel": "C029Y3JNWTS",
+  "message": Object {
+    "attachments": Array [
+      Object {
+        "author_icon": "https://tinder.com/static/apple-touch-icon.png",
+        "author_link": "https://tinder.com/",
+        "author_name": "TinderOABot",
+        "color": "36a64f",
+        "fallback": "Ready to Swipe right?",
+        "id": 1,
+        "mrkdwn_in": Array [
+          "text",
+        ],
+        "text": "This is a sample message with attachments for Tinder Online Assessment...",
+        "thumb_height": 225,
+        "thumb_url": "https://www.datingsitesreviews.com/images/articles/review-tinder-med-2020-06.jpg",
+        "thumb_width": 300,
+        "title": "Ready to Swipe right?",
+        "title_link": "https://tinder.com/",
+      },
+    ],
+    "bot_id": "B02995EBYP4",
+    "bot_profile": Object {
+      "app_id": "A029937T49G",
+      "deleted": false,
+      "icons": Object {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png",
+      },
+      "id": "B02995EBYP4",
+      "name": "Demo App",
+      "team_id": "T029Y3JN508",
+      "updated": 1627364491,
+    },
+    "team": "T029Y3JN508",
+    "text": "This is a text message",
+    "ts": Any<String>,
+    "type": "message",
+    "user": "U0298CLJHH8",
+  },
+  "ok": true,
+  "response_metadata": Object {
+    "acceptedScopes": Array [
+      "chat:write",
+    ],
+    "scopes": Array [
+      "identify",
+      "channels:history",
+      "chat:write",
+    ],
+  },
+  "ts": Any<String>,
+}
+`;
+
+exports[`Slack Post Message Tests Send a text message with a valid API key 1`] = `
+Object {
+  "channel": "C029Y3JNWTS",
+  "message": Object {
+    "bot_id": "B02995EBYP4",
+    "bot_profile": Object {
+      "app_id": "A029937T49G",
+      "deleted": false,
+      "icons": Object {
+        "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+        "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+        "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png",
+      },
+      "id": "B02995EBYP4",
+      "name": "Demo App",
+      "team_id": "T029Y3JN508",
+      "updated": 1627364491,
+    },
+    "team": "T029Y3JN508",
+    "text": "This is a text message",
+    "ts": Any<String>,
+    "type": "message",
+    "user": "U0298CLJHH8",
+  },
+  "ok": true,
+  "response_metadata": Object {
+    "acceptedScopes": Array [
+      "chat:write",
+    ],
+    "scopes": Array [
+      "identify",
+      "channels:history",
+      "chat:write",
+    ],
+  },
+  "ts": Any<String>,
+}
+`;

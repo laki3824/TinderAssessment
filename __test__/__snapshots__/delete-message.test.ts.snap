@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete messages tests -  Delete a text message using a valid messageId 1`] = `
+Object {
+  "channel": "C029Y3JNWTS",
+  "ok": true,
+  "response_metadata": Object {
+    "acceptedScopes": Array [
+      "chat:write",
+    ],
+    "scopes": Array [
+      "identify",
+      "channels:history",
+      "chat:write",
+    ],
+  },
+  "ts": Any<String>,
+}
+`;

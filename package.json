@@ -1,0 +1,24 @@
+{
+  "name": "TinderAssessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-serial-runner": "^1.1.0",
+    "jest-stare": "^2.2.2",
+    "supertest": "^6.1.4"
+  },
+  "dependencies": {
+    "@slack/oauth": "^2.2.0",
+    "@slack/web-api": "^6.3.0",
+    "dotenv": "^10.0.0"
+  }
+}

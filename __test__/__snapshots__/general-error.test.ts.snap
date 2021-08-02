@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`General invalid/exception tests -  Delete message posted by another user 1`] = `[TypeError: (intermediate value).chat.Delete is not a function]`;
+
+exports[`General invalid/exception tests -  Send a text message with an invalid api key 1`] = `[Error: An API error occurred: invalid_auth]`;
+
+exports[`General invalid/exception tests -  Send message to an invalid channel 1`] = `[Error: An API error occurred: channel_not_found]`;
+
+exports[`General invalid/exception tests -  Unauthorized access to chat history 1`] = `[Error: An API error occurred: not_in_channel]`;
+
+exports[`General invalid/exception tests -  Update message posted by another user 1`] = `[Error: An API error occurred: message_not_found]`;
